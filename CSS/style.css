@@ -17,9 +17,9 @@
 
 .subheader{height: 180px;}
 .subheader .top_bar{height: 90px;display: flex;}
-.subheader .top_bar .logo{height: 90px;width: 50%;display: flex;align-items: center; margin-left: 236px; background-color: black;}
+.subheader .top_bar .logo{height: 90px;width: 50%;display: flex;align-items: center; margin-left: 236px;}
 .subheader .top_bar .ico{height: 90px;width: 50%; display: flex;justify-content: center;align-items: center;}
-.subheader .top_bar .ico li{display: inline;padding-right: 20px; background-color: aqua;}
+.subheader .top_bar .ico li{display: inline;padding-right: 20px; }
 .subheader .top_bar .ico .icos .dropdown{ position: relative;padding: 6px; border: 1px solid gray;border-radius: 5px; transition: 3s;}
 .subheader .top_bar .ico .icos .dropdown .flag{ width: 100%; position: absolute; top:100%;left:0;display:none;padding-left: 7px; transition:3s;}
 .subheader .top_bar .ico .icos .dropdown:hover .flag{display: block; }

@@ -44,6 +44,8 @@
 
 .im_card .im_card1 { margin-bottom: 80px; display: flex;  justify-content: center;  align-items: center; text-align: center;line-height: 70px; }
 .im_card .im_card1 .card{ height: 170px; width: 184px; background-color:rgba(0, 0, 0, .1); margin-left: 25px; font-size: 25px;  border-radius: 30px; margin-top: 10px;}
+.im_card .im_card1 .card .abc{padding-top: 20px;}
+.im_card .im_card1 .card h6{margin-top: -20px;}
 .im_card .im_card1 .card:hover{border: 5px solid #0089F7 ; background-color: white;}
 
 /* img end */
@@ -67,12 +69,12 @@
 
 /* picture start */
 .picture{ margin-bottom: 50px; text-align: center;}
-.picture .imgs{display: flex;padding:10px 50px;}
-.picture .imgs .pic1{height: 600px; width: 50%;margin-right: 20px; background-color: #0089F7; border-radius: 50px; background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/medical-banner-design-template-1198eb31c72ee31c8c2b4db903e2e6fa_screen.jpg?ts=1631557048); background-size: 100% 100%; }
-.picture .imgs .pic2{height: 600px; width: 50%;background-color: blue; border-radius: 50px; background: url(https://image.winudf.com/v2/image1/Y29tLmZhZGR1YXBwLnBvc3Rlcm1ha2VyX3NjcmVlbl81XzE1NTU0NzU3OTFfMDcx/screen-6.jpg?fakeurl=1&type=.webp); background-size: 100% 100% }
-.picture .imgs1{display: flex;padding:5px 50px;}
-.picture .imgs1 .pic3{height: 600px; width: 55%;background-color: #0089F7; border-radius: 50px; margin-right: 20px; background: url(https://img.freepik.com/premium-vector/awesome-monkey-geek-with-headphone-logo-design_224764-74.jpg); background-size: 100% 100%;}
-.picture .imgs1 .pic4{height: 600px; width: 45%;background-color: blue; border-radius: 50px; background: url(https://wallpapercave.com/wp/wp1989836.jpg); background-size: 100% 100%; }
+.picture .imgs{display: flex;padding:10px 50px; justify-content: center; align-items: center; margin-top: 25px;}
+.picture .imgs .pic1{height: 500px; width: 40%;margin-right: 20px; background-color: #0089F7; border-radius: 12px; background-image: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg1.webp); background-size: 100% 100%; }
+.picture .imgs .pic2{height: 500px; width: 40%;background-color: blue; border-radius: 12px; background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg2.webp); background-size: 100% 100% }
+.picture .imgs1{display: flex;padding:5px 50px; justify-content: center; align-items: center;margin-top: 25px;}
+.picture .imgs1 .pic3{height: 500px; width: 50%;background-color: #0089F7; border-radius: 12px; margin-right: 20px; background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg3.webp); background-size: 100% 100%;}
+.picture .imgs1 .pic4{height: 500px; width: 30%;background-color: blue; border-radius: 12px; background: url(https://wallpapercave.com/wp/wp1989836.jpg); background-size: 100% 100%; }
 
 /* picture end */
 

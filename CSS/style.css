@@ -83,3 +83,25 @@
 
 .main{ text-align: center; padding: 20px;}
 .main h1{ margin-bottom: 50px;}
+
+/* main end */
+
+/* browse button  */
+
+.hov {text-align: center;}
+.hov .button{ height: 40px;width: 150px ; border-radius: 8px; border: none;position: relative;cursor: pointer; }
+.hov .button::after{content: ""; position: absolute; height: 100%; width: 0%; top: 0; left: 0; transition: 1s; border-radius: 8px; background-color: rgba(0, 0, 0, .1);}
+.hov .button:hover::after {width: 100%;}
+
+/* browse button  */
+
+/* experiance */
+.conv{margin-top: 60px;}
+.conv .text{text-align: center; }
+.conv .ord{display: flex;margin-top: 80px;justify-content:space-around;}
+.conv .ord .order{flex-direction: column;  text-align: center;}
+/* experiance */
+
+/* brow product */
+.colr{ height: 730px; background-color: #222540;}
+.colr .col{width: 80%; height: inherit; background-color: #fd7e14; margin: auto;}

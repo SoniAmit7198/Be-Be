@@ -118,7 +118,7 @@
 
 /* bg image */
 
-.bg_img{height: 450px; padding-top: 110px; text-align: center; background-attachment: fixed; background:url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg1.webp);background-size: 100% 100%;background-attachment: fixed;}
+.bg_img{height: 450px; padding-top: 90px; text-align: center; background-attachment: fixed; background:url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg1.webp);background-size: 100% 100%;background-attachment: fixed;}
 .bg_img p{padding-top: 50px;}
 .bg_img p input{ height: 40px; padding-right: 200px; margin-right: 20px;}
-.bg_img p button{background-color: #0089F7; color: white; font-size: 15px;}
+.bg_img p button{ background-color: #0089F7; color: white; font-size: 15px;}

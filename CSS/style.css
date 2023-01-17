@@ -89,9 +89,9 @@
 /* browse button  */
 
 .hov {text-align: center;}
-.hov .button{ height: 40px;width: 150px ; border-radius: 8px; border: none;position: relative;cursor: pointer; }
-.hov .button::after{content: ""; position: absolute; height: 100%; width: 0%; top: 0; left: 0; transition: 1s; border-radius: 8px; background-color: rgba(0, 0, 0, .1);}
-.hov .button:hover::after {width: 100%;}
+ .button{ height: 40px;width: 150px ; border-radius: 8px; border: none;position: relative;cursor: pointer; }
+ .button::after{content: ""; position: absolute; height: 100%; width: 0%; top: 0; left: 0; transition: 1s; border-radius: 8px; background-color: rgba(0, 0, 0, .1);}
+ .button:hover::after {width: 100%;}
 
 /* browse button  */
 
@@ -103,5 +103,22 @@
 /* experiance */
 
 /* brow product */
-.colr{ height: 730px; background-color: #222540;}
-.colr .col{width: 80%; height: inherit; background-color: #fd7e14; margin: auto;}
+.colr{  background-color: #222540; margin-top: 60px;}
+.colr .col{width: 80%; padding:115px 0px; background-color: #fd7e14; margin: auto;display: flex;justify-content: center;align-items: center; }
+.colr .col .box{height: 500px; width: 80%;  display: flex;}
+.colr .col .box .contain{width: 50%; padding: 50px 90px;}
+.colr .col .box .contain p{padding-top: 50px; }
+.colr .col .box .contain h1{color: white;padding-top: 20px;}
+.colr .col .box .contain p span{border-bottom: 3px solid white; margin-right: 50px; color: white;}
+.colr .col .box .contain p .fa-solid{ padding: 10px; border: 3px solid white; border-radius: 50%; color: white;}
+.colr .col .box .imag{ width: 50%; background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-home-pic5.webp);background-size: 100% 100%; background-repeat: no-repeat; background-color: #0089F7;  }
+.colr .col .box .contain p span:hover , .colr .col .box .contain p .fa-solid:hover{color: rgba(255, 255, 255, .6); border-color: rgba(255, 255, 255, .6); cursor: pointer;}
+
+/* brow product */
+
+/* bg image */
+
+.bg_img{height: 450px; padding-top: 110px; text-align: center; background-attachment: fixed; background:url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg1.webp);background-size: 100% 100%;background-attachment: fixed;}
+.bg_img p{padding-top: 50px;}
+.bg_img p input{ height: 40px; padding-right: 200px; margin-right: 20px;}
+.bg_img p button{background-color: #0089F7; color: white; font-size: 15px;}

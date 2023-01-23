@@ -393,26 +393,25 @@
         border-radius: 12px;
         background-image: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg1.webp);
         background-size: 100% 100%;
-        background-repeat: no-repeat;
 
 }
 
 .picture .imgs .pic2 {
         background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg2.webp);
-         background-size: 100% 100%;
-        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+
 }
 
 .picture .imgs .pic3 {
         width: 50%;
-        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg3.webp);    
+        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg3.webp);   
+        background-size: 100% 100%; 
 }
 
 .picture .imgs .pic4 {
         width: 30%;
         background: url(https://wallpapercave.com/wp/wp1989836.jpg);
         background-size: 100% 100%;
-
 }
 
 /* picture end */

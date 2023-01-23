@@ -3,6 +3,7 @@
      .header{display:none}
      .ftto{display: block;}
      .header .text{width: 100%;}
+     .header .text p{line-height: 25px;}
      .header .icons{display: none;}
      .bottom_bar{display:none;}
      .subheader .top_bar{width: 100%;}
@@ -26,8 +27,11 @@
      .product .pro .produ{width: 100%; }
      .colr .col{padding: 0px 0px;}
      .colr .col .box{flex-direction: column-reverse; padding: 0px;}
-     .colr .col .box .contain{ height: 280px; width: 100%; padding: 10px 0;}
-     .colr .col .box .imag{ height: 280px; width: 100%; text-align: start;}
+     .colr .col .box .contain{ height: 300px; width: 100%; padding: 50px 0; }
+     .colr .col .box .contain h1{font-size: 20px;}
+     .colr .col .box .contain p .fa-solid{padding: 5px;}
+     .colr .col .box .contain p span {margin-right: 0px;}
+     .colr .col .box .imag{ height: 300px; width: 100%; text-align: start;}
      .colr .col .box .contain h1 , .colr .col .box .contain p{padding: 5px;}
      .cus .cust{padding: 0 0;}
      .cus .cust .custo{padding: 50px;}

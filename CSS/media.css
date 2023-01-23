@@ -28,7 +28,11 @@
      .colr .col .box .contain h1 , .colr .col .box .contain p{padding: 5px;}
      .cus .cust{padding: 0 0;}
      .cus .cust .custo{padding:50px;}
+
      .cus .cust .custom {text-align: center; flex-wrap: wrap;}
+     .bg_img{width: 100%;}
+     .bg_img p input{padding-right: 150px;}
+
      .sub_footer{ height: auto;}
      .sub_ig{padding-bottom: 30px;}
      .sub_footer .sub_but {padding-top: 40px;}

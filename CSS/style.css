@@ -566,7 +566,7 @@ h1 {
         text-align: center;
         background-attachment: fixed;
         background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg1.webp);
-        background-size: contain;
+        background-size: 100% 100%;
         background-attachment: fixed;
 }
 

@@ -8,7 +8,7 @@
      .subheader .top_bar{width: 100%;}
      .top_bar .ico .icos{display:none;}
      .top_bar .ico .sho{display: block;}
-     .side_bar{width: 50%;}
+     .side_bar{width:auto;}
      .img .anm{display: none;}
      .img{height: 450px;}
      .im_card .im_card1{width: 100%;}

@@ -3,7 +3,7 @@
      .header{display:none}
      .ftto{display: block;}
      .header .text{width: 100%; }
-     .header .icons{ width: 100%;}
+     .header .icons{ display: none;}
      .bottom_bar{display:none;}
      .subheader .top_bar{width: 100%;}
      .top_bar .ico .icos{display:none;}

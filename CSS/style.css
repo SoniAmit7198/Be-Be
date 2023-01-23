@@ -392,15 +392,15 @@
         margin-right: 20px;
         border-radius: 12px;
         background-image: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg1.webp);
-        background-size: cover;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
 
 }
 
 .picture .imgs .pic2 {
         background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg2.webp);
-        background-size: cover;
-        background-repeat: no-repeat;
+         background-size: 100% 100%;
+        background-repeat: no-repeat; 
 }
 
 .picture .imgs .pic3 {

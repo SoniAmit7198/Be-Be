@@ -2,7 +2,7 @@
 {
      .header{display:none}
      .ftto{display: block;}
-     .header .text{width: 100%; }
+     .header .text{width: 100%;}
      .header .icons{ display: none;}
      .bottom_bar{display:none;}
      .subheader .top_bar{width: 100%;}
@@ -25,8 +25,8 @@
      .product .pro{ flex-wrap: wrap; }
      .product .pro .produ{width: 100%; }
      .colr .col{padding: 0px 0px;}
-     .colr .col .box{flex-direction: column-reverse;}
-     .colr .col .box .contain{ height: 280px; width: 100%; padding: 20px 0;}
+     .colr .col .box{flex-direction: column-reverse; padding: 0px;}
+     .colr .col .box .contain{ height: 280px; width: 100%; padding: 10px 0;}
      .colr .col .box .imag{ height: 280px; width: 100%; text-align: start;}
      .colr .col .box .contain h1 , .colr .col .box .contain p{padding: 5px;}
      .cus .cust{padding: 0 0;}

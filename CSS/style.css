@@ -287,16 +287,32 @@
 /* img end */
 
 /* product start */
+.product {
+        padding: 50px;
+        /* background-color: #fd7e14; */
+      
+}
+.product .t {
+       
+        text-align: center;
+        padding-bottom: 20px;
+}
+
 .product .product_card {
         display: flex;
+
         justify-content: center;
         align-items: center;
+        padding: 50px;
+       
 }
 
 .product .product_card .p_card {
-        height: 250px;
-        width: 250px;
-        margin-left: 25px;
+        width: 25%;
+        margin: 0 30px;
+        
+
+       
 }
 
 .product .product_card .p_card .visible {
@@ -304,6 +320,18 @@
         transition: 0.7s;
 }
 
+
+
+.product .product_card .p_card .tx {
+        height: 70px;
+        width: 100%;
+        text-align: start;
+}
+
+.product .product_card .p_card .tx span {
+        color: #0089F7;
+        font-size: 20px;
+}
 .product .product_card .p_card .hidden {
         display: block;
         transition: 0.7s;
@@ -319,8 +347,9 @@
 
 .product .product_card .p_card .p__card {
         height: 200px;
-        width: 250px;
+        width: 100%;
         position: relative;
+
 }
 
 .product .product_card .p_card .p__card span {
@@ -333,101 +362,67 @@
         color: white;
 }
 
-.product .product_card .p_card .tx {
-        height: 50px;
-        width: 200px;
-        padding: 10px;
-        text-align: start;
-}
 
-.product .product_card .p_card .tx span {
-        color: #0089F7;
-        font-size: 24px;
-}
 
-.product .t {
-        margin-left: 220px;
-}
-
-.product {
-        margin-bottom: 50px;
-}
 
 /* product end */
 
 /* picture start */
 .picture {
-        margin-bottom: 50px;
+        padding: 20px;
         text-align: center;
+        
 }
 
 .picture .imgs {
         display: flex;
-        padding: 10px 50px;
+        flex-wrap: wrap;       
         justify-content: center;
         align-items: center;
-        margin-top: 25px;
+        padding: 25px;
+       
 }
 
 .picture .imgs .pic1 {
         height: 500px;
         width: 40%;
         margin-right: 20px;
-        background-color: #0089F7;
         border-radius: 12px;
         background-image: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg1.webp);
-        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
 }
 
 .picture .imgs .pic2 {
-        height: 500px;
-        width: 40%;
-        background-color: blue;
-        border-radius: 12px;
         background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg2.webp);
-        background-size: 100% 100%
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 
-.picture .imgs1 {
-        display: flex;
-        padding: 5px 50px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 25px;
-}
-
-.picture .imgs1 .pic3 {
-        height: 500px;
+.picture .imgs .pic3 {
         width: 50%;
-        background-color: #0089F7;
-        border-radius: 12px;
-        margin-right: 20px;
-        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg3.webp);
-        background-size: 100% 100%;
+        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg3.webp);    
 }
 
-.picture .imgs1 .pic4 {
-        height: 500px;
+.picture .imgs .pic4 {
         width: 30%;
-        background-color: blue;
-        border-radius: 12px;
         background: url(https://wallpapercave.com/wp/wp1989836.jpg);
         background-size: 100% 100%;
+
 }
 
 /* picture end */
 
 
 /* main start */
+.prod{padding: 0px 50px; margin-top: 15px;}
 
-.main {
+h1 {
         text-align: center;
-        padding: 20px;
-}
+       }
 
-.main h1 {
-        margin-bottom: 50px;
-}
+.product .pro{padding: 0 50px;}
 
 /* main end */
 
@@ -477,6 +472,7 @@
 
 .conv .ord {
         display: flex;
+        flex-wrap: wrap;
         margin-top: 80px;
         justify-content: space-around;
 }
@@ -505,14 +501,19 @@
 }
 
 .colr .col .box {
-        height: 500px;
+        /* height: 500px; */
         width: 80%;
         display: flex;
+        flex-wrap: wrap;
+        
+
 }
 
 .colr .col .box .contain {
+        height: 500px;
         width: 50%;
         padding: 50px 90px;
+
 }
 
 .colr .col .box .contain p {
@@ -538,11 +539,12 @@
 }
 
 .colr .col .box .imag {
+        height: 500px;
         width: 50%;
         background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-home-pic5.webp);
-        background-size: 100% 100%;
+        background-size: contain;
         background-repeat: no-repeat;
-        background-color: #0089F7;
+        
 }
 
 .colr .col .box .contain p span:hover,
@@ -562,7 +564,7 @@
         text-align: center;
         background-attachment: fixed;
         background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg1.webp);
-        background-size: 100% 100%;
+        background-size: contain;
         background-attachment: fixed;
 }
 
@@ -590,12 +592,15 @@
 
 .cus .cust {
         padding: 80px 160px;
+        
 }
 
 .cus .cust .custo {
         padding: 60px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+        
 }
 
 .cus .cust .custo img {
@@ -607,7 +612,7 @@
 }
 
 .cus .cust .custom {
-        display: flex;
+        display: flex;     
 }
 
 .cus .cust .custom .tnt {
@@ -621,11 +626,15 @@
 
 /* sub footer */
 
+/* .sub_txt{height: 200px; width: 33.33%;}
+.sub_but{height: 200px; width: 33.33%;} */
+
 .sub_footer {
         height: 200px;
         background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg2.webp);
         background-color: rgb(218, 210, 210);
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
 }

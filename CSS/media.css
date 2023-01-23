@@ -2,14 +2,40 @@
 {
      .header{display:none}
      .bottom_bar{display:none;}
-
      .subheader .top_bar{width: 100%;}
      .top_bar .ico .icos{display:none;}
      .top_bar .ico .sho{display: block;}
      .side_bar{width: 50%;}
      .img .anm{display: none;}
-     .img{height: 500px;}
+     .img{height: 450px;}
      .im_card .im_card1{width: 100%;}
+     .side_bar{display: none;}
+     
+     .product{padding: 0;}
+     .product .t{font-size: 22px;text-align:left ; padding-left: 20px;}
+     .product .product_card{padding: 10px;}
+     .product .product_card .p_card{width: 50%; margin: 0 5px;}
+     .product .product_card .so{display: none;}     
+     .picture .imgs .pic1 { height:400px; width: 100%;}
+     .main{ background-color: aqua;}
+     .prod{ padding: 0px 70px; }
+     .product .pro{ flex-wrap: wrap; }
+     .product .pro .produ{width: 100%; }
+     .colr .col{padding: 0px 0px;}
+     .colr .col .box{flex-direction: column-reverse;}
+     .colr .col .box .contain{ height: 280px; width: 100%; padding: 20px 0;}
+     .colr .col .box .imag{ height: 280px; width: 100%; text-align: start;}
+     .colr .col .box .contain h1 , .colr .col .box .contain p{padding: 5px;}
+     .cus .cust{padding: 0 0;}
+     .cus .cust .custo{padding:50px;}
+     .cus .cust .custom {text-align: center; flex-wrap: wrap;}
+     .sub_footer{ height: auto;}
+     .sub_ig{padding-bottom: 30px;}
+     .sub_footer .sub_but {padding-top: 40px;}
+     
 
+
+
+     
 
 }

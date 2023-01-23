@@ -15,6 +15,9 @@
 .header {
         background-color: black;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
 }
 
 .header .text {
@@ -660,10 +663,12 @@ h1 {
 
 .footer .foo_ctn .ctn {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
 }
 
 .footer .foo_ctn .ctn .ct {
+        width: 25%;
         float: left;
 }
 

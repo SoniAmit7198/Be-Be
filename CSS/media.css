@@ -1,0 +1,15 @@
+@media (max-width:500px)
+{
+     .header{display:none}
+     .bottom_bar{display:none;}
+
+     .subheader .top_bar{width: 100%;}
+     .top_bar .ico .icos{display:none;}
+     .top_bar .ico .sho{display: block;}
+     .side_bar{width: 50%;}
+     .img .anm{display: none;}
+     .img{height: 500px;}
+     .im_card .im_card1{width: 100%;}
+
+
+}
